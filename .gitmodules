@@ -1,0 +1,6 @@
+[submodule "substitute"]
+	path = substitute
+	url = https://github.com/comex/substitute.git
+[submodule "mach_inject_bundle/mach_inject"]
+	path = mach_inject_bundle/mach_inject
+	url = https://github.com/rentzsch/mach_inject.git
