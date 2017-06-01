@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13F34</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>Interface Inspector</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.interface-inspector.Interface-Inspector</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Interface Inspector</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>17</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6A1052d</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>14A382</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10</string>
+	<key>DTXcode</key>
+	<string>0610</string>
+	<key>DTXcodeBuild</key>
+	<string>6A1052d</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.developer-tools</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.9</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013 Stephan Michels. All rights reserved.</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>DFApplication</string>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSKeyEquivalent</key>
+			<dict>
+				<key>default</key>
+				<string>~@I</string>
+			</dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Show Interface Inspector</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>inject</string>
+			<key>NSPortName</key>
+			<string>Interface Inspector</string>
+			<key>NSRequiredContext</key>
+			<array/>
+		</dict>
+		<dict>
+			<key>NSKeyEquivalent</key>
+			<dict>
+				<key>default</key>
+				<string>$~@I</string>
+			</dict>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>Select component for the Interface Inspector</string>
+			</dict>
+			<key>NSMessage</key>
+			<string>injectAndSelect</string>
+			<key>NSPortName</key>
+			<string>Interface Inspector</string>
+			<key>NSRequiredContext</key>
+			<array/>
+		</dict>
+	</array>
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+	<key>SMPrivilegedExecutables</key>
+	<dict>
+		<key>com.interface-inspector.InterfaceInspectorInjector</key>
+		<string>anchor apple generic and identifier "com.interface-inspector.InterfaceInspectorInjector"</string>
+		<key>com.interface-inspector.InterfaceInspectorInjector32</key>
+		<string>anchor apple generic and identifier "com.interface-inspector.InterfaceInspectorInjector32"</string>
+	</dict>
+	<key>SUCheckAtStartup</key>
+	<true/>
+	<key>SUEnableAutomaticChecks</key>
+	<true/>
+	<key>SUEnableSystemProfiling</key>
+	<true/>
+	<key>SUFeedURL</key>
+	<string>http://www.interface-inspector.com/download/feed.xml</string>
+	<key>SUPublicDSAKeyFile</key>
+	<string>dsa_pub.pem</string>
+	<key>SUScheduledCheckInterval</key>
+	<integer>86400</integer>
+</dict>
+</plist>

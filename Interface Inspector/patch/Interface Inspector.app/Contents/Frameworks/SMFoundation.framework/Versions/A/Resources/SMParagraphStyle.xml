@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<slice>
+    <section>
+        <sliver title="Text Direction">
+            <property type="enumeration" keyPath="baseWritingDirection" actionSelector="valuesDidFinishChanging">
+                <option-group>
+                    <option title="Natural" value="-1"/>
+                </option-group>
+                <option-group>
+                    <option title="Left to Right" value="0"/>
+                    <option title="Right to Left" value="1"/>
+                </option-group>
+            </property>
+        </sliver>
+        <sliver title="Line Breaking">
+            <property type="enumeration" keyPath="lineBreakMode" actionSelector="valuesDidFinishChanging">
+                <option-group>
+                    <option title="Clip" value="2" />
+                </option-group>
+                <option-group>
+                    <option title="Character Wrap" value="1" />
+                    <option title="Word Wrap" value="0" />
+                </option-group>
+                <option-group>
+                    <option title="Truncate Head" value="3" />
+                    <option title="Truncate Middle" value="5" />
+                    <option title="Truncate Tail" value="4" />
+                </option-group>
+            </property>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="Line">
+            <property type="number" title="Height Multiple" keyPath="lineHeightMultiple" minimum="0.0" formatStyle="decimal" increment="0.5" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="Spacing" keyPath="lineSpacing" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="Min Height" keyPath="minimumLineHeight" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+            <property type="number" title="Max Height" keyPath="maximumLineHeight" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="Paragraph">
+            <property type="number" title="Spacing Before" keyPath="paragraphSpacingBefore" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="Spacing After" keyPath="paragraphSpacing" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="Indent">
+            <property type="number" title="Head" keyPath="headIndent" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+            <property type="number" title="Tail" keyPath="tailIndent" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver>
+            <property type="number" title="First Line" keyPath="firstLineHeadIndent" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+            <property type="number" title="Tab" keyPath="defaultTabInterval" minimum="0.0" formatStyle="decimal" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="Hyphenation">
+            <property type="number" title="Factor" keyPath="hyphenationFactor" minimum="0.0" formatStyle="decimal" increment="0.01" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+        <sliver title="Truncation">
+            <property type="number" title="Tightening Factor" keyPath="tighteningFactorForTruncation" minimum="0.0" formatStyle="decimal" increment="0.01" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+    <section>
+        <sliver title="Header Level">
+            <property type="number" keyPath="headerLevel" minimum="0" formatStyle="integer" actionSelector="valuesDidFinishChanging"/>
+        </sliver>
+    </section>
+</slice>

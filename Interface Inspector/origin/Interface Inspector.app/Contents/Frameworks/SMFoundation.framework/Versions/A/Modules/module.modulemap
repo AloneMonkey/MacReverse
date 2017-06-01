@@ -1,0 +1,5 @@
+framework module SMFoundation {
+    umbrella header "SMFoundation.h"
+    config_macros [exhaustive] SM_ENABLE_LOGGING
+    export *
+}

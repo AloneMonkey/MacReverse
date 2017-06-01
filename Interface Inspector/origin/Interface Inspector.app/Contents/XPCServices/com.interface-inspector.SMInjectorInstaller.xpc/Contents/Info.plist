@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13F34</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>com.interface-inspector.SMInjectorInstaller</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.interface-inspector.SMInjectorInstaller</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>com.interface-inspector.SMInjectorInstaller</string>
+	<key>CFBundlePackageType</key>
+	<string>XPC!</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>17</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6A1052d</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>14A382</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10</string>
+	<key>DTXcode</key>
+	<string>0610</string>
+	<key>DTXcodeBuild</key>
+	<string>6A1052d</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2013 Stephan Michels. All rights reserved.</string>
+	<key>SMPrivilegedExecutables</key>
+	<dict>
+		<key>com.interface-inspector.InterfaceInspectorInjector</key>
+		<string>anchor apple generic and identifier "com.interface-inspector.InterfaceInspectorInjector"</string>
+		<key>com.interface-inspector.InterfaceInspectorInjector32</key>
+		<string>anchor apple generic and identifier "com.interface-inspector.InterfaceInspectorInjector32"</string>
+	</dict>
+	<key>XPCService</key>
+	<dict>
+		<key>JoinExistingSession</key>
+		<true/>
+		<key>ServiceType</key>
+		<string>Application</string>
+	</dict>
+</dict>
+</plist>
